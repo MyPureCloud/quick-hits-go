@@ -23,4 +23,4 @@ if err != nil {
 } else {
     fmt.Printf("Hello, %v\n", *user.Name)
 }
-// END sdk-overview
+// >> END sdk-overview
