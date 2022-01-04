@@ -40,7 +40,7 @@ func main() {
 	}
 
 	// >> START analytics-conversation-aggregate-query-step-2
-	// Determeine interval for last 7 days
+	// Determine interval for last 7 days
 	now := time.Now()
 	interval := fmt.Sprintf("%v/%v", now.AddDate(0, 0, -7).Format(time.RFC3339), now.Format(time.RFC3339))
 	// >> END analytics-conversation-aggregate-query-step-2
